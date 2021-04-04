@@ -15,7 +15,7 @@ int equlibrium(int arr[],int n)
         {
             if(lsum==sum-arr[i])
             {
-                return i+1;
+                return i;
             }
             lsum=lsum+arr[i];
             sum=sum-arr[i];
